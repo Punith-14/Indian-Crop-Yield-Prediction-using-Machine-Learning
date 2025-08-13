@@ -47,9 +47,12 @@ The initial correlation heatmap showed very low linear correlation between numer
 
 **Top Crops by Yield:**  
 This plot revealed a massive outlier: the Coconut crop had a yield thousands of times higher than any other. This was identified as a data quality issue, likely due to the yield being recorded in a different unit (nuts/hectare instead of tonnes/hectare). To prevent this outlier from skewing the model, all data for the 'Coconut' crop was removed.
+
   ![Top Crops vs Yield](images/top_crops_yield.png)
+  
 **Top States by Yield:**  
 This visualization provided a clear overview of the most productive states on average, highlighting regional differences in agricultural productivity.
+ 
   ![Top States Yield](images/top_states_yield.png)
 ---
 
