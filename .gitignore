@@ -1,0 +1,21 @@
+.vscode/
+
+# Python virtual environment
+.venv/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# model_pickle 
+model.pkl/            # as its of 2 gigabytes in size
+
+# raw data
+data/raw_data/           # raw data files, you have to download the dataset as it is more mb
